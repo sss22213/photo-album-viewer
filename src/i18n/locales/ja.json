@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "フォトアルバム",
+    "settings": "設定"
+  },
+  "language": {
+    "label": "言語",
+    "en": "English",
+    "zh-TW": "繁體中文",
+    "zh-CN": "简体中文",
+    "ja": "日本語",
+    "de": "Deutsch"
+  },
+  "albums": {
+    "title": "アルバム",
+    "loading": "読み込み中...",
+    "empty": "アルバムが見つかりません",
+    "emptyHint": "「設定」からアルバムソースを追加してください",
+    "single": "単一",
+    "multi": "複数",
+    "sources": "ソース",
+    "manual": "手動",
+    "selectAll": "すべて選択",
+    "deselectAll": "選択解除",
+    "viewSelected": "選択を表示",
+    "selectAtLeastOne": "アルバムを少なくとも1つ選択してください",
+    "photoCount": "{count} 枚"
+  },
+  "photoAlbum": {
+    "back": "アルバム一覧へ",
+    "loading": "写真を読み込み中...",
+    "empty": "このアルバムには写真がありません"
+  },
+  "merged": {
+    "back": "戻る",
+    "title": "選択中のアルバム（{count}）",
+    "loading": "写真を読み込み中...",
+    "empty": "選択したアルバムに写真がありません"
+  },
+  "settings": {
+    "back": "戻る",
+    "title": "設定",
+    "sources": {
+      "title": "アルバムソース",
+      "desc": "外部ディレクトリをアルバムソースとして管理します。各ソース内のサブフォルダは自動的にアルバムになります。",
+      "namePlaceholder": "ソース名",
+      "pathPlaceholder": "ディレクトリパス（例: /photos/my-album）",
+      "add": "ソースを追加",
+      "adding": "追加中...",
+      "removeConfirm": "ソース「{name}」を削除しますか？\n関連するアルバムも削除されます。",
+      "addFailed": "ソースの追加に失敗しました",
+      "removeFailed": "ソースの削除に失敗しました"
+    },
+    "enabled": {
+      "title": "有効なアルバム",
+      "desc": "アルバム一覧での表示/非表示を切り替えます。サムネイルはローカルにキャッシュされます。更新するには「再スキャン」を押してください。",
+      "rescan": "再スキャン",
+      "rescanning": "スキャン中...",
+      "rescanDone": "スキャン完了！",
+      "rescanFailed": "スキャンに失敗しました",
+      "removeConfirm": "アルバム「{name}」を削除しますか？",
+      "removeFailed": "アルバムの削除に失敗しました"
+    },
+    "manual": {
+      "title": "手動アルバムを追加",
+      "desc": "ソースを作成せずに、単一のフォルダをアルバムとして追加します。",
+      "namePlaceholder": "アルバム名",
+      "pathPlaceholder": "ディレクトリパス",
+      "add": "アルバムを追加",
+      "adding": "追加中...",
+      "addFailed": "アルバムの追加に失敗しました"
+    },
+    "remove": "削除"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "キャンセル"
+  }
+}

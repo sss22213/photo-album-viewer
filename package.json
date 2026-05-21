@@ -1,0 +1,26 @@
+{
+  "name": "photo-album",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"node server/index.js\" \"vite\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "sharp": "^0.34.5",
+    "vue": "^3.5.32",
+    "vue-i18n": "^10.0.5",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "concurrently": "^9.2.1",
+    "vite": "^8.0.10"
+  }
+}

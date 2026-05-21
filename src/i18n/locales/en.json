@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "Photo Album",
+    "settings": "Settings"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "zh-TW": "繁體中文",
+    "zh-CN": "简体中文",
+    "ja": "日本語",
+    "de": "Deutsch"
+  },
+  "albums": {
+    "title": "Albums",
+    "loading": "Loading...",
+    "empty": "No albums found",
+    "emptyHint": "Go to Settings to add album sources",
+    "single": "Single",
+    "multi": "Multi",
+    "sources": "Sources",
+    "manual": "Manual",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "viewSelected": "View Selected",
+    "selectAtLeastOne": "Please select at least one album",
+    "photoCount": "{count} photos"
+  },
+  "photoAlbum": {
+    "back": "Back to Albums",
+    "loading": "Loading photos...",
+    "empty": "No photos found in this album"
+  },
+  "merged": {
+    "back": "Back",
+    "title": "Selected Albums ({count})",
+    "loading": "Loading photos...",
+    "empty": "No photos found in selected albums"
+  },
+  "settings": {
+    "back": "Back",
+    "title": "Settings",
+    "sources": {
+      "title": "Album Sources",
+      "desc": "Manage external directories as album sources. Each source can contain multiple albums (folders).",
+      "namePlaceholder": "Source name",
+      "pathPlaceholder": "Directory path (e.g. /photos/my-album)",
+      "add": "Add Source",
+      "adding": "Adding...",
+      "removeConfirm": "Remove source \"{name}\"?\nThe albums will be removed.",
+      "addFailed": "Failed to add source",
+      "removeFailed": "Failed to remove source"
+    },
+    "enabled": {
+      "title": "Enabled Albums",
+      "desc": "Toggle albums to show or hide them on the Albums page. Thumbnails are cached locally — use Rescan to refresh them.",
+      "rescan": "Rescan Albums",
+      "rescanning": "Scanning...",
+      "rescanDone": "Rescan complete!",
+      "rescanFailed": "Rescan failed",
+      "removeConfirm": "Delete album \"{name}\"?",
+      "removeFailed": "Failed to remove album"
+    },
+    "manual": {
+      "title": "Add Manual Album",
+      "desc": "Add a single folder as an album without making it a source.",
+      "namePlaceholder": "Album name",
+      "pathPlaceholder": "Directory path",
+      "add": "Add Album",
+      "adding": "Adding...",
+      "addFailed": "Failed to add album"
+    },
+    "remove": "Remove"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}

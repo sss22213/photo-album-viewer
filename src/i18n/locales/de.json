@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "Fotoalbum",
+    "settings": "Einstellungen"
+  },
+  "language": {
+    "label": "Sprache",
+    "en": "English",
+    "zh-TW": "繁體中文",
+    "zh-CN": "简体中文",
+    "ja": "日本語",
+    "de": "Deutsch"
+  },
+  "albums": {
+    "title": "Alben",
+    "loading": "Wird geladen...",
+    "empty": "Keine Alben gefunden",
+    "emptyHint": "Gehe zu Einstellungen, um Album-Quellen hinzuzufügen",
+    "single": "Einzeln",
+    "multi": "Mehrfach",
+    "sources": "Quellen",
+    "manual": "Manuell",
+    "selectAll": "Alle auswählen",
+    "deselectAll": "Auswahl aufheben",
+    "viewSelected": "Auswahl anzeigen",
+    "selectAtLeastOne": "Bitte mindestens ein Album auswählen",
+    "photoCount": "{count} Fotos"
+  },
+  "photoAlbum": {
+    "back": "Zurück zu den Alben",
+    "loading": "Fotos werden geladen...",
+    "empty": "Keine Fotos in diesem Album"
+  },
+  "merged": {
+    "back": "Zurück",
+    "title": "Ausgewählte Alben ({count})",
+    "loading": "Fotos werden geladen...",
+    "empty": "Keine Fotos in den ausgewählten Alben"
+  },
+  "settings": {
+    "back": "Zurück",
+    "title": "Einstellungen",
+    "sources": {
+      "title": "Album-Quellen",
+      "desc": "Externe Verzeichnisse als Album-Quellen verwalten. Jede Quelle kann mehrere Alben (Unterordner) enthalten.",
+      "namePlaceholder": "Quellenname",
+      "pathPlaceholder": "Verzeichnispfad (z. B. /photos/mein-album)",
+      "add": "Quelle hinzufügen",
+      "adding": "Wird hinzugefügt...",
+      "removeConfirm": "Quelle „{name}“ entfernen?\nDie Alben werden ebenfalls entfernt.",
+      "addFailed": "Quelle konnte nicht hinzugefügt werden",
+      "removeFailed": "Quelle konnte nicht entfernt werden"
+    },
+    "enabled": {
+      "title": "Aktivierte Alben",
+      "desc": "Alben ein- oder ausblenden. Vorschaubilder werden lokal zwischengespeichert — verwende „Neu scannen“ zum Aktualisieren.",
+      "rescan": "Alben neu scannen",
+      "rescanning": "Wird gescannt...",
+      "rescanDone": "Scan abgeschlossen!",
+      "rescanFailed": "Scan fehlgeschlagen",
+      "removeConfirm": "Album „{name}“ löschen?",
+      "removeFailed": "Album konnte nicht entfernt werden"
+    },
+    "manual": {
+      "title": "Manuelles Album hinzufügen",
+      "desc": "Einen einzelnen Ordner als Album hinzufügen, ohne eine Quelle anzulegen.",
+      "namePlaceholder": "Albumname",
+      "pathPlaceholder": "Verzeichnispfad",
+      "add": "Album hinzufügen",
+      "adding": "Wird hinzugefügt...",
+      "addFailed": "Album konnte nicht hinzugefügt werden"
+    },
+    "remove": "Entfernen"
+  },
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen"
+  }
+}

@@ -1,0 +1,21 @@
+services:
+  photo-album:
+    build: .
+    container_name: photo-album
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    volumes:
+      # Persist cache (manifest.json, thumbnails) and settings.json across rebuilds.
+      # NOTE: do NOT mount over /app — that would shadow the image's node_modules and source.
+      - photo-album-data:/app/cache
+      # Mount your photo directories (read-only)
+      # IMPORTANT: update the left side (host path) to match your actual photo location
+      - /media/disk1/ai_output/txt2img-images:/photos:ro
+      - /media/usb3/docker/nextcloud/data/sss22213:/sss22213:ro
+    environment:
+      - PORT=3001
+      - IMAGE_DIR=/photos
+
+volumes:
+  photo-album-data:
